@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/index.css">
+    
+</head>
+<body>
+    <div class="big-container">
+        <div>
+            <h1 style="color: black; display: flex; justify-content: center;">Weather App</h1>
+            
+            <div class="searchbar" style="color: black; font-size: large; padding: 10px; margin: 10px; display: flex; justify-content: center">
+
+                <label for="site-search" style="display: flex; justify-content: center; align-items: center" >Search the city :</label>
+
+                <input  id="city-search" class="input" style="medium; padding: 4px; margin: 4px;" type="search" name="q" />
+
+                <button id="search-btn" style="color: black; font-size: medium;padding: 4px; margin: 4px;">Search</button>
+
+                <button id="clear-btn" style="color: black; font-size: medium;padding: 4px; margin: 4px;">Clear</button>
+            
+            </div>
+            
+            <div class="lowerpart-container" id="city-info" class="info-box" style="display: flex; justify-content: center; flex-direction: column;">
+                <h1 id="city">Yangon</h1>
+                <h1 id="temp"> 29 degree C</h1>
+                <h1 id="humidity">70% humidity</h1>
+            </div>
+            
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
