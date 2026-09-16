@@ -3,15 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./p.css">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/weatherapp/public/p.css">
+    
 </head>
 <body>
     <div class="big-container">
-        <h1>helo</h1>
         <div>
-            <h1>world</h1>
+            <h1 style="color: black; display: flex; justify-content: center;">Weather App</h1>
+            
+            <div class="searchbar" style="color: black; font-size: large; padding: 10px; margin: 10px; display: flex; justify-content: center">
+
+                <label for="site-search" style="display: flex; justify-content: center; align-items: center;font-size: larger" >Search the city :</label>
+
+                <input  id="city-search" class="input" style="medium; padding: 4px; margin: 4px;" type="search" name="q" />
+
+                <button id="search-btn" style="color: black; font-size: medium;padding: 4px; margin: 4px;">Search</button>
+
+                <button id="clear-btn" style="color: black; font-size: medium;padding: 4px; margin: 4px;">Clear</button>
+            
+            </div>
+            
+            <div class="lowerpart-container" id="city-info" class="info-box" style="display: flex; justify-content: center; flex-direction: column;">
+                <img class="weather-icon" src="./image/cloudy.png" alt="">
+
+                <h1 id="temp" style="font-size: 80px; font-weight: 500;">29℃</h1>
+
+                <h1 id="city" style="font-size: 40px; font-weight: 150; margin-top: -20px;">Yangon</h1>
+
+                <div class="details" style="width: 400px; margin-top: -16px;">
+
+                    <div class="cols">
+                        <img class="humidity-logo" src="./image/humidity.png" alt="">
+                        <div>
+                            <p>Humidity level</p>
+                            <p class="humidity">50%</p>
+                        </div>
+                    </div>
+
+
+                    <div class="cols">
+                        <img class="wind-logo" src="./image/wind.png" alt="">
+                        <div>
+                            
+                            <p>Wind Speed</p>
+                            <p class="wind">15 km/h</p>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
