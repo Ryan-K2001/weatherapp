@@ -1,78 +1,76 @@
 body {
-    background-image: url("./image/starlit-abyss.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    
-    margin: 0;
-    min-height: 100vh;
+  background-image: url("./image/starlit-abyss.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin: 0;
+  min-height: 100vh;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .input {
-    border-radius: 10px;
-    box-shadow: none;
+  border-radius: 10px;
+  box-shadow: none;
 }
 
 .big-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgba(255, 255, 255, 0.50);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .lowerpart-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .searchbar label {
-    background: transparent;
-    padding-right: 10px;
+  background: transparent;
+  padding-right: 10px;
 }
 
 .searchbar {
-    background: transparent;
-    padding-right: 10px;
+  background: transparent;
+  padding-right: 10px;
 }
 
 .img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .weather-icon {
-    width: 160px;
-    margin-top: 30px;
+  width: 160px;
+  margin-top: 10px;
+  margin-bottom: -30px;
 }
 
 .wind-logo {
-    width: 70px;   /* smaller */
-    height: auto;
+  width: 110px; /* smaller */
+  height: auto;
 }
 
 .humidity-logo {
-    width: 70px;   /* smaller */
-    height: auto;
+  width: 110px; /* smaller */
+  height: auto;
 }
 
 .details {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20;
-    margin-top: 50px;
-    max-width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
 }
